@@ -17,7 +17,6 @@ public class ScreenBrightnessPackage implements ReactPackage {
   private final int mWriteSettingsRequestCode = 1;
 
   public ScreenBrightnessPackage() {
-    mWriteSettingsRequestCode = writeSettingsRequestCode;
   }
 
   @Override
